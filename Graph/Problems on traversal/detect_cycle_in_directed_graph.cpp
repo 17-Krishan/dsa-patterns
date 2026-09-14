@@ -4,6 +4,8 @@ using namespace std;
 // Time complexity: O(V + E)
 // Space complexity: O(V)
 
+// can also be solved using Kahn's Algorithm
+
 class Solution {
 public:
     bool dfs(int node, vector<vector<int>>& adj,
